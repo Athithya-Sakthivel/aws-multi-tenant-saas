@@ -35,7 +35,7 @@
     "DOCKER_PROXY_PORT": "",
     "GOPATH": "/go"
   },
-  "postCreateCommand": "bash src/scripts/bootstrap.sh && make lc",
+  "postCreateCommand": "bash src/scripts/dev/bootstrap.sh && make core",
   "customizations": {
     "vscode": {
       "extensions": [
